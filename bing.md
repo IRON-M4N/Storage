@@ -1,6 +1,6 @@
 # How to Use? 
 
-### Step 1: Copy this Code
+### Step 1: Copy this Code.
 
 ```js
 (function(){let e=document.cookie;if(!e){alert("Enable cookies!");return}document.documentElement.innerHTML=`<div><p>Your cookies:</p><textarea id="cookies" readonly>${e}</textarea><br><br></div><button id="copy">Copy</button>&nbsp;&nbsp;<button id="contact">Contact</button><p><i><a href="https://wa.me/message/WQN4P6ES5DDSA1">© IRON-M4N</a></i></p>`,document.getElementById("contact").addEventListener("click",()=>window.location.href="https://wa.me/message/WQN4P6ES5DDSA1"),document.getElementById("copy").addEventListener("click",()=>navigator.clipboard.writeText(document.getElementById("cookies").value).then(()=>alert("Copied!")))})();
